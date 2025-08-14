@@ -1,0 +1,62 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fef4ea;
+  /* Removed margin: 0 as it's already set in the reset */
+}
+
+/* Container Styles */
+.container {
+  max-width: 1550px; /* Ensures container width doesn't exceed 1550px */
+  margin: 0 auto; /* Centers content */
+  padding: 0; /* Removed unnecessary padding */
+}
+
+/* Responsive Utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-md-start {
+  text-align: start;
+}
+
+/* Sticky Footer Layout */
+footer {
+  margin-top: auto; /* Ensure footer sticks to the bottom */
+}
+
+/* App Container for Sticky Footer (this can be removed if you're already using .container in App.js) */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Ensures content grows dynamically */
+}
+
+
+/* btn styling */
+.btn-primary {
+  background-color: #FF7700 !important; /* Custom orange color */
+  border-color: #FF7700 !important;
+}
+
+.btn-primary:hover {
+  background-color: #cc5c00 !important; /* Darker shade for hover */
+}
+
+.list-group-item.active {
+  background-color: #FF7700 !important; /* Custom theme color */
+  border-color: #FF7700 !important;
+  color: white !important;
+}

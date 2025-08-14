@@ -1,0 +1,79 @@
+/* PgCard.css */
+.pg-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 1rem;
+  font-family: sans-serif;
+}
+
+.pg-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.pg-details {
+  padding: 1rem;
+}
+
+.pg-type {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+
+.pg-desc {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.pg-stars {
+  color: #f5a623;
+  margin: 0.5rem 0;
+}
+
+.pg-btn {
+  background-color: #620062;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pg-btn1 {
+  background-color: #17f425;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pg-btn:hover {
+  background-color: #e727e3;
+}
+.pg-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center;   /* ⬅️ Center items horizontally */
+  overflow-x: auto;
+  gap: 1rem;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.pg-list::-webkit-scrollbar {
+  display: none;
+}
+
+.pg-list li {
+  flex: 0 0 auto;
+}
+
+
